@@ -45,9 +45,9 @@ class MainActivity : AppCompatActivity() {
         img.layoutParams.width = 400
 
 
-        des.text = "El SENA, es un establecimiento público del orden nacional, con personería jurídica, patrimonio propio e independiente, y autonomía administrativa; adscrito al Ministerio del Trabajo, de Colombia. SENA una entidad de formación profesional al alcance de todos."
+        des.text = "CTPI Popayán, lugar al que me toca ir a estudiar"
         //Configuración de Glide
-        val imgUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4osuOdXdusmE9tNn4OthpsmZEZfICDYgKUJp6qAfWYJM3A7QjeiLtxQAeCosqzQzWhUI&usqp=CAU"
+        val imgUrl = "https://diariodelcauca.com.co/wp-content/uploads/2023/02/sena-cauca.jpg"
         Glide.with(this)
             .load(imgUrl)
             .into(img)
